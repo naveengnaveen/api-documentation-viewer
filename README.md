@@ -1,6 +1,6 @@
 # API Documentation Viewer
 
-**API Documentation Viewer** is a modern, responsive, and static web application built to beautifully display API documentation from an OpenAPI (Swagger) specification. It was developed as a comprehensive Cloud Computing Level 2 academic project, encompassing both frontend design and DevOps CI/CD practices.
+API Documentation Viewer is a modern, responsive, and static web application for exploring, understanding, and testing OpenAPI documentation.
 
 ---
 
