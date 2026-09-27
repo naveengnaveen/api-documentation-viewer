@@ -1,0 +1,96 @@
+/* 
+ * API Nexus - Responsive Styles
+ */
+
+@media (max-width: 1024px) {
+    .main-content {
+        padding: 24px;
+    }
+    
+    .status-panel {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile-only-btn {
+        display: block;
+    }
+    
+    .sidebar {
+        transform: translateX(-100%);
+        box-shadow: 2px 0 10px rgba(0,0,0,0.5);
+    }
+    
+    .sidebar.open {
+        transform: translateX(0);
+    }
+    
+    .main-content {
+        margin-left: 0;
+    }
+    
+    .hero-content h1 {
+        font-size: 24px;
+    }
+    
+    .endpoint-info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    
+    .navbar-center {
+        display: none; /* Hide global search on mobile for simplicity, or we can make it a dropdown */
+    }
+    
+    .footer-content {
+        flex-direction: column;
+    }
+    
+    .footer-links {
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .hero-actions {
+        flex-direction: column;
+    }
+    
+    .hero-actions .btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 0 16px;
+    }
+    
+    .main-content {
+        padding: 16px;
+    }
+    
+    .hero-section {
+        padding: 24px 16px;
+    }
+    
+    .endpoint-header {
+        padding: 12px 16px;
+    }
+    
+    .endpoint-body {
+        padding: 16px;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .try-out-panel {
+        padding: 12px;
+    }
+}

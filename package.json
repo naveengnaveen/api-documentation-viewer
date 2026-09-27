@@ -1,0 +1,16 @@
+{
+  "name": "api-documentation-viewer",
+  "version": "1.0.0",
+  "description": "API Documentation Viewer for Cloud Computing Level 2 project",
+  "main": "index.html",
+  "scripts": {
+    "test": "node tests/validate-openapi.js",
+    "build": "echo \"Build step complete (Static Site)\"",
+    "serve": "npx serve ."
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
