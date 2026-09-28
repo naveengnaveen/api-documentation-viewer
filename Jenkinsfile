@@ -72,7 +72,7 @@ pipeline {
                 ]) {
 
                     bat '''
-                        aws s3 sync . s3://%S3_BUCKET% --exclude ".git/*" --exclude "node_modules/*" --exclude "Jenkinsfile" --exclude "tests/*" --exclude "*.zip" --region %AWS_REGION%
+                        "C:\Program Files\Amazon\AWSCLIV2\aws.exe" s3 sync . s3://%S3_BUCKET% --exclude ".git/*" --exclude "node_modules/*" --exclude "Jenkinsfile" --exclude "tests/*" --exclude "*.zip" --region %AWS_REGION%
                     '''
 
                     echo 'Deployment completed successfully!'
