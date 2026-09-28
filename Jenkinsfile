@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        S3_BUCKET = 'api-documentation-bucket-demo'
+        S3_BUCKET = 'api-documentation-viewer-naveen-2026'
         AWS_REGION = 'us-east-1'
     }
 
