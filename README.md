@@ -1,6 +1,6 @@
 # API Documentation Viewer
 
-**API Documentation Viewer** is a modern, responsive, and static web application built to beautifully display API documentation from an OpenAPI (Swagger) specification. It was developed as a comprehensive Cloud Computing Level 2 academic project, encompassing both frontend design and DevOps CI/CD practices.
+API Documentation Viewer is a modern, responsive, and static web application for exploring, understanding, and testing OpenAPI documentation.
 
 ---
 
@@ -149,3 +149,4 @@ During your project review, make sure to demonstrate the following:
 3. **The Jenkinsfile**: Walk through the stages (Checkout -> Test -> Deploy).
 4. **Validation Test**: Show `tests/validate-openapi.js` and explain how it prevents a bad API spec from being deployed.
 5. **AWS Deployment Strategy**: Explain the final Jenkins stage that uses `aws s3 sync` to deploy to a static bucket, and why credentials are securely managed in Jenkins rather than hardcoded in the script.
+Webhook integration test completed.
